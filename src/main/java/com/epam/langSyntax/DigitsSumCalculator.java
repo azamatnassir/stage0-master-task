@@ -7,7 +7,7 @@ public class DigitsSumCalculator {
         while(number != 0)
         {
             digit = number % 10;
-            sum = sum + digit; //
+            sum = sum + digit;
             number = number / 10;
         }
 
